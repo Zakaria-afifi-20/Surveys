@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(205, 188, 245);
+}
+header {
+  color: rgb(1, 129, 129);
+  text-align: center;
+  margin: 10px;
+}
+h1{
+    color: black;
+    font-size:60px;
+    
+}
+.survey {
+  border-radius: 10px;
+  width: 100%;
+  padding: 50px;
+  border-collapse: separate;
+  border-spacing: 0 15;
+
+}
+.question {
+  background-color: rgb(207, 165, 247);
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+}
+.choice {
+  text-align: center;
+  width: 70px;
+}
+input[type="radio"] {
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+  height: 18px;
+  accent-color: rgb(121, 143, 0);
+}
+#txt {
+  width: 420px;
+  height: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color: bisque;
+}
+.info {
+  display: flex;
+  padding: 5px 350px;
+  gap: 5px;
+ text-align: center;
+}
+.feed{
+    padding: 0 100px;
+}
+hr{
+    border: none;
+    border-top: 1px solid black;
+    margin: 20px 50px;
+    
+}
+.info input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(243, 220, 191);
+  width: 200px;
+  padding: 7px 10px;
+  
+}
+#date {
+  width: 180px;
+}
+#send {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
+  border: none;
+  background-color: greenyellow;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-weight: bold;
+  
+}
+#send:hover {
+  background-color: rgb(8, 212, 8);
+  transition: 0.5s ease;
+}

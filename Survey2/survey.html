@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Suevey2</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Customer Survey</h1>
+      <h3>
+        Thank you for shopping with us! Please take a few minutes to rate us so
+        we can serve you better.
+      </h3>
+    </header>
+    <hr />
+    <table class="survey">
+      <thead>
+        <tr>
+          <th></th>
+          <th class="choice">Very Bad</th>
+          <th class="choice">Bad</th>
+          <th class="choice">Neutral</th>
+          <th class="choice">Good</th>
+          <th class="choice">Excellent</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="question">
+            How would you rate the overall quality of our customer service?
+          </td>
+          <td><input type="radio" name="q1" /></td>
+          <td><input type="radio" name="q1" /></td>
+          <td><input type="radio" name="q1" /></td>
+          <td><input type="radio" name="q1" /></td>
+          <td><input type="radio" name="q1" /></td>
+        </tr>
+        <tr>
+          <td class="question">
+            How satisfied are you with the speed and performance of our
+            product/service?
+          </td>
+          <td><input type="radio" name="q2" /></td>
+          <td><input type="radio" name="q2" /></td>
+          <td><input type="radio" name="q2" /></td>
+          <td><input type="radio" name="q2" /></td>
+          <td><input type="radio" name="q2" /></td>
+        </tr>
+        <tr>
+          <td class="question">
+            How easy was it to navigate our website or application?
+          </td>
+          <td><input type="radio" name="q3" /></td>
+          <td><input type="radio" name="q3" /></td>
+          <td><input type="radio" name="q3" /></td>
+          <td><input type="radio" name="q3" /></td>
+          <td><input type="radio" name="q3" /></td>
+        </tr>
+        <tr>
+          <td class="question">
+            How would you rate the value for money you received?
+          </td>
+          <td><input type="radio" name="q4" /></td>
+          <td><input type="radio" name="q4" /></td>
+          <td><input type="radio" name="q4" /></td>
+          <td><input type="radio" name="q4" /></td>
+          <td><input type="radio" name="q4" /></td>
+        </tr>
+        <tr>
+          <td class="question">
+            How likely are you to recommend us to a friend or colleague?
+          </td>
+          <td><input type="radio" name="q5" /></td>
+          <td><input type="radio" name="q5" /></td>
+          <td><input type="radio" name="q5" /></td>
+          <td><input type="radio" name="q5" /></td>
+          <td><input type="radio" name="q5" /></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="feed">
+      <h3>How else we can improve ?</h3>
+      <textarea name="textarea" id="txt"></textarea>
+    </div>
+    <hr />
+    <div class="info">
+      <input type="text" placeholder="Enter Your Name" />
+      <input id="date" type="date" />
+      <button type="submit" id="send">Send</button>
+    </div>
+  </body>
+  <footer></footer>
+</html>
