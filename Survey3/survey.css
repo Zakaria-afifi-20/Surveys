@@ -1,0 +1,69 @@
+body {
+  font-family: cursive;
+  padding: 0px 300px;
+  margin: 2px;
+}
+header {
+  background-color: rgb(162, 252, 252);
+  color: rgb(0, 0, 0);
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-family: cursive;
+}
+.content {
+  background-color: rgb(143, 215, 243);
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+.intro h4 {
+  margin: 5px;
+}
+.intro table {
+  padding: 0 20px;
+}
+.qualify table {
+  width: 650px;
+  height: 200px;
+  margin-top: -10px;
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+.qualify h4 {
+  padding: 5px 20px;
+}
+.qualify table tr:first-child th:not(:first-child),
+.qualify table tr:not(:first-child) :first-child {
+  background-color: rgb(180, 247, 235);
+}
+.qualify table tr:first-child th:first-child,
+.qualify table tr:first-child td:first-child {
+  border: none;
+}
+.qualify table th,
+.qualify table td {
+  border: 1px solid gray;
+  text-align: center;
+}
+.sub {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(162, 252, 252);
+  border-radius: 15px;
+}
+
+.sub input {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(104, 197, 135);
+  color: black;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.sub input:hover {
+  background-color: rgb(15, 136, 55);
+}
